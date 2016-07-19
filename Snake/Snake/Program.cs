@@ -17,10 +17,7 @@ namespace Snake
         }
         static void DrawPoint(int x, int y, char sym)
         {
-            Point p = new Point();
-            p.x = x;
-            p.y = y;
-            p.sym = sym;
+            Point p = new Point(x,y,sym);
             p.Draw();
         }
     }
